@@ -1,0 +1,93 @@
+nav {
+    background-color: orange;
+}
+
+.section {
+    margin-top: 150px;
+}
+
+.rond {
+    width: 200px;
+    height: 200px;
+    border-width: 15px;
+    border-color: #f0c823;
+    box-shadow: inset 3px 5px 2px 1px rgba(190, 160, 20, 0.8), 3px 5px 2px 1px rgba(190, 160, 20, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.petit-rond {
+    width: 50px;
+    height: 50px;
+    border-width: 5px;
+    border-color: #f5910a;
+    box-shadow: inset 2px 3px 1px 1px rgba(190, 160, 20, 0.8), 2px 3px 1px 1px rgba(190, 160, 20, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.multiple-rond1 {
+    width: 30px;
+    height: 30px;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: inset 1px 2px 1px 1px rgba(0, 0, 0, 0.8), 1px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -8px;
+}
+
+.multiple-rond2 {
+    width: 60px;
+    height: 60px;
+    border-width: 4px;
+    border-color: black;
+    box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, 0.8), 2px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -16px;
+}
+
+.multiple-rond3 {
+    width: 90px;
+    height: 90px;
+    border-width: 6px;
+    border-color: black;
+    box-shadow: inset 3px 2px 1px 1px rgba(0, 0, 0, 0.8), 3px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -24px;
+}
+
+.multiple-rond4 {
+    width: 120px;
+    height: 120px;
+    border-width: 8px;
+    border-color: black;
+    box-shadow: inset 4px 2px 1px 1px rgba(0, 0, 0, 0.8), 4px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -32px;
+}
+
+.multiple-rond5 {
+    width: 150px;
+    height: 150px;
+    border-width: 10px;
+    border-color: black;
+    box-shadow: inset 5px 2px 1px 1px rgba(0, 0, 0, 0.8), 5px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -40px;
+}
+
+.multiple-rond6 {
+    width: 180px;
+    height: 180px;
+    border-width: 12px;
+    border-color: black;
+    box-shadow: inset 6px 2px 1px 1px rgba(0, 0, 0, 0.8), 6px 2px 1px 1px rgba(0, 0, 0, 0.8);
+    border-style: solid;
+    border-radius: 100%;
+    margin-left: -48px;
+}

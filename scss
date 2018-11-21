@@ -1,0 +1,37 @@
+nav {
+  background-color:orange;
+
+}
+
+.section {
+  margin-top : 150px;
+}
+
+@mixin myRing ($width, $height, $borderwidth, $bordercolor, $boxshadow){
+  width : $width;
+  height : $height;
+  border-width : $borderwidth;
+  border-color : $bordercolor;
+  box-shadow : inset $boxshadow, $boxshadow;
+        border-style: solid;
+        border-radius:100%;
+    }
+
+    .rond {
+
+        @include myRing(200px, 200px, 15px, rgb(240,200,35),3px 5px 2px 1px rgba(190, 160, 20, 0.8));
+
+    }
+    .petit-rond {
+
+      @include myRing(50px, 50px, 5px, rgb(245,145,10),2px 3px 1px 1px rgba(190, 160, 20, 0.8));
+
+    }
+
+    @for $i from 1 through 6 {
+     .multiple-rond#{$i} {
+       @include myRing(30px*$i, 30px*$i, 2px*$i, rgb(0, 0, 0), 1px*$i 2px 1px 1px rgba(0, 0, 0, 0.8));
+       margin-left: -8px*$i;
+
+  }
+}
